@@ -27,6 +27,11 @@
   height: 420px;
 }
 
+.product:hover img::after{
+  background-image: url("../img/1b.webp");
+}
+}
+
 .product .heart{
   position: absolute;
   right: 0px;
@@ -55,12 +60,23 @@
 }
 
 .product .brand{
-  font-size: 15px;
+  font-size: 10px;
   opacity: .6;
 }
 
 .product .model{
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.product .price{
+  font-size: 10px;
+  color: red;
+}
+
+.product .price span{
+  color: black;
+  text-decoration-line: line-through;
+  margin-left: 5px;
 }
 
 
