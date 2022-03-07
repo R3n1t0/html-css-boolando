@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-line, .second-line{
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+  background-color: blue;
+  margin-top: 15px;
+}
+
+.product{
+  width: 32%;
+  height: 350px;
+  margin: 0 5px;
+  position: relative;
+  display: inline-block;
+  background-color: red;
+  cursor: pointer;
+}
