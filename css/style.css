@@ -5,19 +5,25 @@
 }
 
 .first-line, .second-line{
-  width: 80%;
-  height: 350px;
+  width: 65%;
+  height: 400px;
   margin: 0 auto;
-  background-color: blue;
   margin-top: 15px;
+  text-align: center;
 }
 
 .product{
-  width: 32%;
-  height: 350px;
+  width: 31%;
+  height: 400px;
   margin: 0 5px;
-  position: relative;
   display: inline-block;
-  background-color: red;
   cursor: pointer;
+  object-fit: cover;
 }
+
+.product img{
+  width: 100%;
+  height: 100%;
+}
+
+
