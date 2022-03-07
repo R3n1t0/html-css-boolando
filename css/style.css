@@ -15,7 +15,7 @@
 .product{
   width: 32%;
   height: 450px;
-  margin: 0 5px;
+  padding: 5px;
   display: inline-block;
   cursor: pointer;
   position: relative;
@@ -24,17 +24,27 @@
 
 .product img{
   width: 100%;
-  height: 420px;
+  height: 410px;
 }
 
-.product:hover img::after{
-  background-image: url("../img/1b.webp");
+.product .backround{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px;
+  width: 100%;
+  height: 420px;
+  display: none;
 }
+
+.product:hover .backround{
+  display: block;
 }
+
 
 .product .heart{
   position: absolute;
-  right: 0px;
+  right: 5px;
   top: 15px;
   padding: 5px 10px;
   font-size: 20px;
@@ -43,7 +53,7 @@
 
 .product .discount{
   position: absolute;
-  left: 0px;
+  left: 5px;
   bottom: 45px;
   padding: 5px;
   background-color: red;
@@ -52,7 +62,16 @@
 
 .product .sostenibilita{
   position: absolute;
-  left: 50px;
+  left: 55px;
+  bottom: 45px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+}
+
+.product .green{
+  position: absolute;
+  left: 5px;
   bottom: 45px;
   padding: 5px;
   background-color: green;
